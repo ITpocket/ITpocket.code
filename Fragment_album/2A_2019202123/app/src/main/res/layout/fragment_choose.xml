@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECDFE4"
+    android:orientation="vertical"
+    tools:context=".ChooseFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="스타트업 등장인물"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:layout_marginBottom="15dp"
+        />
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="모두보기"
+            android:textSize="23sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="서달미"
+            android:textSize="23sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="남도산"
+            android:textSize="23sp" />
+
+        <RadioButton
+            android:id="@+id/rdBtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="한지평"
+            android:layout_marginBottom="15dp"
+            android:textSize="23sp" />
+
+    </RadioGroup>
+    <View
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#37CDDC39"
+        android:text="OK"
+        android:textColor="#F44336"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        />
+
+
+</LinearLayout>
